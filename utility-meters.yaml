@@ -1,3 +1,4 @@
+  # stored as single file in /packages and included by packages: !include_dir_named packages in configuration.yaml
   gas_15min:
     source: sensor.gas_meter_kwh
     cycle: quarter-hourly
