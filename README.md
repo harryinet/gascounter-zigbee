@@ -120,9 +120,6 @@ Man muss die Platine des etwas kürzen an der Seite mit der Antenne bis kurz vor
 Der Link zur STL Datei mit Bezug auf die Urform ist hier [BK-G4 Gas Sensor Count with Door Sensor MCCGQ01LM](https://www.thingiverse.com/thing:5078865)
 
 ### Nice and easy
-
 ![Preiswert](pics/FFCRDi4PuinhB6.jpg)
- "Preiswert
 **Preiswert**
-
 Für vielleicht 10-15 EUR erhält man einen hoch präzisen Gaszähler.
