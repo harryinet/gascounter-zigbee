@@ -1,6 +1,6 @@
 # gascounter-zigbee
 ### **Zigbee Gaszähler m³/kWh**
-![](/Ueh7dfx9uG3hgG.jpg)
+![](pics/Ueh7dfx9uG3hgG.jpg)
 
 ### **Der Gedanke ...**
 Mit der Möglichkeit in Homeassistant Energieverbrauch darzustellen wollte ich einen lange gehegten Wunsch des Zählens von Gasmengen zu ermöglichen und darzustellen.
