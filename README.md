@@ -121,5 +121,7 @@ Der Link zur STL Datei mit Bezug auf die Urform ist hier [BK-G4 Gas Sensor Count
 
 ### Nice and easy
 ![Preiswert](pics/FFCRDi4PuinhB6.jpg)
+
 **Preiswert**
+
 Für vielleicht 10-15 EUR erhält man einen hoch präzisen Gaszähler.
