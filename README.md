@@ -17,7 +17,7 @@ Vor ca. 10 Jahren hatte ich schon einmal eine Lösung von ELV versucht mit einem
 Zugegebener Massen habe ich dazu vor ca. 2-3 Jahren im Internet gesucht und nichts gescheites gefunden. Vielleicht war die Suche nicht ernsthaft genug. Dann fand ich den Link im Reddit [Tutorial: My gas monitoring solution with Home Assistant and Zigbee](https://www.reddit.com/r/homeassistant/comments/eno3jn/tutorial_my_gas_monitoring_solution_with_home/) von "u/Andyrew". Perfekt, einige Homeassistant Scripte und Links zu STL Files sind darin enthalten.
 
 ### Die Idee
-![](pics/ccgtkvzbaqqt6w.jpg)
+![](pics/ccGtkVZBaqQT6w.jpg)
 
 **Ein guter Gedanke**
 
