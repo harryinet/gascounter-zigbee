@@ -12,9 +12,11 @@ With the possibility to display energy consumption in Homeassistant, I wanted to
 ![](pics/9Fw3mRIaMofOcy.jpg)
 
 **History**
+
 About 10 years ago I had already tried a solution from ELV with an optical eye. At that time, however, it failed to meaningful representation of the CSV data, which was quite tedious. A radio station with data collector, which one had to read out every week, made no joy. Whereby the optical number change certainly already worked well.
 
 **Internet search ultimately with success**.
+
 Admitted masses I have searched for this about 2-3 years ago on the Internet and found nothing clever. Maybe the search was not serious enough. Then I found the link in Reddit [Tutorial: My gas monitoring solution with Home Assistant and Zigbee](https://www.reddit.com/r/homeassistant/comments/eno3jn/tutorial_my_gas_monitoring_solution_with_home/) from "u/Andyrew". Perfect, some Homeassistant scripts and links to STL files are included.
 
 ### The Idea
