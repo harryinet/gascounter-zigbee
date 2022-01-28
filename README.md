@@ -27,7 +27,7 @@ _Moment, du hast doch noch einige Tür/Fensterkontakte in der Schublade, die hab
 
 ### Beta Test
 
-![](pics/ivuacz42vukvhl.jpg)
+![](pics/IvuAcz42vUKvHl.jpg)
 
 Schnell war ein Türkontakt demontiert und mit doppelseitigem Klebeband in die Mulde des Gaszähler platziert.
 
@@ -35,7 +35,7 @@ Zu meiner Überraschung funktionierte es so schon einwandfrei, ich konnte die Ti
 
 ### Code anpassen
 
-![](pics/uxvs9lapsbgqqa.jpg)
+![](pics/uxvs9LApSBGqQa.jpg)
 
 **Dank an u/Andyrew**
 
@@ -53,11 +53,11 @@ Der Vollständigkeit halber hier der bei mir laufende Code, abgelegt in externen
 
 Screenshot zum Dashboard.
 
-![](pics/ki93mq-1-5jenp.png)
+![](pics/Ki93mQ-1-5jeNP.png)
 
 In die angezeigten Input Felder trägt man lediglich den Gaspreis in Cent und den durchschnittlichen Tagespreis einer Grundgebühr ein.
 
-![](pics/vk5r3qh_vmhssx.png)
+![](pics/Vk5R3Qh_VmhSsX.png)
 
 Mit den Homeassistant Energie Dashboard kann man z.B. den stündlichen Gasverbrauch aus dem Utility Meter gas_hourly darstellen.
 
@@ -107,7 +107,7 @@ value_template: "{{ (((states.sensor.gas_hourly.state | float * (states.input_nu
 
 ### 3D Druck für Türkontakt
 
-![](pics/fha9z08sj50ycq.png "STL 3D")
+![STL 3D](pics/FHA9Z08sJ50Ycq.png)
 
 **STL File anpassen**
 
@@ -121,8 +121,8 @@ Der Link zur STL Datei mit Bezug auf die Urform ist hier [BK-G4 Gas Sensor Count
 
 ### Nice and easy
 
-![](pics/ffcrdi4puinhb6.jpg "Preiswert")
-
+![Preiswert](pics/FFCRDi4PuinhB6.jpg)
+ "Preiswert
 **Preiswert**
 
 Für vielleicht 10-15 EUR erhält man einen hoch präzisen Gaszähler.
