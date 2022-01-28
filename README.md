@@ -123,7 +123,7 @@ You have to shorten the board a little bit on the side with the antenna until ju
 The STL Files is in this git.
 The link to the STL file with reference to the original shape is here [BK-G4 Gas Sensor Count with Door Sensor MCCGQ01LM](https://www.thingiverse.com/thing:5078865)
 
-### Nice and easy
+### Nice and easy!
 ![Preiswert](pics/FFCRDi4PuinhB6.jpg)
 
 **Value for money**
