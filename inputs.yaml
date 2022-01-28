@@ -1,3 +1,4 @@
+# stored as single file in /packages and included by packages: !include_dir_named packages in configuration.yaml
 input_number:
   energy_gas_unit:
     name: Gas unit price
