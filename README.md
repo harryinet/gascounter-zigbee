@@ -1,5 +1,7 @@
 # gascounter-zigbee
-### **Zigbee Gaszähler m³/kWh**
+Voraussetzung: Homeassistant mit Zigbee2mqtt
+
+## **Zigbee Gaszähler m³/kWh**
 ![](pics/Ueh7dfx9uG3hgG.jpg)
 
 ### **Der Gedanke ...**
@@ -124,5 +126,3 @@ Der Link zur STL Datei mit Bezug auf die Urform ist hier [BK-G4 Gas Sensor Count
 **Preiswert**
 
 Für vielleicht 10-15 EUR erhält man einen hoch präzisen Gaszähler.
-
-Voraussetzung: Homeassistant mit Zigbee2mqtt
