@@ -1,18 +1,14 @@
 # gascounter-zigbee
 ### **Zigbee Gaszähler m³/kWh**
-
-![](pics/9Fw3mRIaMofOcy9.jpg)
+![](/Ueh7dfx9uG3hgG.jpg)
 
 ### **Der Gedanke ...**
-
 Mit der Möglichkeit in Homeassistant Energieverbrauch darzustellen wollte ich einen lange gehegten Wunsch des Zählens von Gasmengen zu ermöglichen und darzustellen.
 
 ### **Wie immer, das Internet hilft**
+![](pics/9Fw3mRIaMofOcy.jpg)
 
-![](/9fw3mriamofocy.jpg)
-
-**Historie**
-
+**Historie*
 Vor ca. 10 Jahren hatte ich schon einmal eine Lösung von ELV versucht mit einem optischen Augen. Damals scheiterte es aber an sinnvoller Darstellung der CSV Daten, was recht mühsam war. Eine Funkstation mit Datensammler, den man alle Woche auslesen musste, machte keine Freude. Wobei der optische Zahlenwechsel sicher schon gut funktionierte.
 
 **Internetsuche letztlich mit Erfolg**
