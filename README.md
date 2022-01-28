@@ -19,6 +19,7 @@ Admitted masses I have searched for this about 2-3 years ago on the Internet and
 
 ### The Idea
 ![](pics/ccGtkVZBaqQT6w.jpg)
+
 **A good thought**
 
 While reading the Reddit entry and after looking at the STL models, an idea came to me very quickly.
@@ -45,7 +46,7 @@ Thanks again to "u/Andyrew" for the clear Reddit entry.
 
 For the sake of completeness, here is the code I have running, stored in files in this git.
 
-* [Inputs](https://pastecode.io/s/i3we3fi6)
+* [Inputs](inputs.yaml)
 * [Sensor kWh und Gas Preis Berechnung](https://pastecode.io/s/619eyrw4)
 * [Utility Meters](https://pastecode.io/s/z8iqohp9)
 * [Automations](https://pastecode.io/s/kop9ajd0)
