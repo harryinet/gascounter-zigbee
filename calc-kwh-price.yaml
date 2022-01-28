@@ -1,3 +1,4 @@
+  # placed in specific sensors folder included by sensor: !include_dir_merge_list cust_sensor/ in configuration.yaml
   - platform: template
     sensors:
       gas_meter_kwh:
