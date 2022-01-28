@@ -2,7 +2,7 @@
 Voraussetzung: Homeassistant mit Zigbee2mqtt
 Thanks to **u/Andyrew**
 
-## **Zigbee Gaszähler m³/kWh**
+## **Zigbee Gascounter m³/kWh**
 ![](pics/Ueh7dfx9uG3hgG.jpg)
 
 ### **The idea ...**
