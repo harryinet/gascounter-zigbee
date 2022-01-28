@@ -1,7 +1,7 @@
 # gascounter-zigbee
 ### **Zigbee Gaszähler m³/kWh**
 
-![](pics/9Fw3mRIaMofOcy9.jpg)
+![](pics/9Fw3mRIaMofOcy.jpg)
 
 ### **Der Gedanke ...**
 
