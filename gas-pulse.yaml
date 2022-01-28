@@ -1,3 +1,4 @@
+# placed in automations.yaml
 - id: energy_gas_pulse_received
   alias: Energy - Gas - Pulse Received
   trigger:
