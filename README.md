@@ -47,10 +47,10 @@ Thanks again to "u/Andyrew" for the clear Reddit entry.
 For the sake of completeness, here is the code I have running, stored in files in this git.
 
 * [Inputs](inputs.yaml)
-* [Sensor kWh und Gas Preis Berechnung](https://pastecode.io/s/619eyrw4)
-* [Utility Meters](https://pastecode.io/s/z8iqohp9)
-* [Automations](https://pastecode.io/s/kop9ajd0)
-* [Dashboard Card](https://pastecode.io/s/q45htigf)
+* [Sensor kWh und Gas Preis Berechnung](calc-kwh-price.yaml)
+* [Utility Meters](utility-meters.yaml)
+* [Automations](gas-pulse.yaml)
+* [Dashboard Card](gas-dashboard-card.yaml)
 
 Screenshot Dashboard.
 
