@@ -118,6 +118,7 @@ Based on the link in u/Andyrew's Reddit entry, this just needed to be adjusted s
 
 You have to shorten the board a little bit on the side with the antenna until just before the antenna. Then it fits exactly into the 3D print and this to the gas meter. However, I have constructed this somewhat quickly in Tinkercad, here is certainly still potential for improvement.
 
+The STL Files is in this git.
 The link to the STL file with reference to the original shape is here [BK-G4 Gas Sensor Count with Door Sensor MCCGQ01LM](https://www.thingiverse.com/thing:5078865)
 
 ### Nice and easy
