@@ -1,0 +1,35 @@
+  - platform: template
+    sensors:
+      gas_meter_kwh:
+        device_class: gas
+        unit_of_measurement: "kWh"
+        value_template: "{{ states.input_number.gas_meter_m3.state | float * 9.5 }}"
+      gas_price_15min:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_15min.state | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /96)) ) | round(2) }}"
+      gas_price_15min_last:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_15min.attributes.last_period | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /96 )) ) | round(2) }}"
+      gas_price_15min_display:
+        value_template: "€{{ states.sensor.gas_price_15min.state }}"
+      gas_price_15min_last_display:
+        value_template: "€{{ states.sensor.gas_price_15min_last.state }}"
+      gas_price_hour:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_hourly.state | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /24)) ) | round(2) }}"
+      gas_price_hour_last:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_hourly.attributes.last_period | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /24 )) ) | round(2) }}"
+      gas_price_hour_display:
+        value_template: "€{{ states.sensor.gas_price_hour.state }}"
+      gas_price_hour_last_display:
+        value_template: "€{{ states.sensor.gas_price_hour_last.state }}"
+      gas_price_day:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_daily.state | float * (states.input_number.energy_gas_unit.state | float /100) )  + (states.input_number.energy_gas_standing.state | float )) ) | round(2) }}"
+      gas_price_day_last:
+        unit_of_measurement: "€"
+        value_template: "{{ (((states.sensor.gas_daily.attributes.last_period | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float )) ) | round(2) }}"
+      gas_price_day_display:
+        value_template: "€{{ states.sensor.gas_price_day.state }}"
+      gas_price_day_last_display:
