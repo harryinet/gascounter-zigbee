@@ -1,3 +1,4 @@
+# picked from dasshboard
 entities:
   - entity: binary_sensor.pulse_gas_contact
     name: Reed Kontakt
