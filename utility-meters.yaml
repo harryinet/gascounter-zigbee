@@ -1,0 +1,18 @@
+  gas_15min:
+    source: sensor.gas_meter_kwh
+    cycle: quarter-hourly
+  gas_hourly:
+    source: sensor.gas_meter_kwh
+    cycle: hourly
+  gas_daily:
+    source: sensor.gas_meter_kwh
+    cycle: daily
+  gas_weekly:
+    source: sensor.gas_meter_kwh
+    cycle: weekly
+  gas_monthly:
+    source: sensor.gas_meter_kwh
+    cycle: monthly
+  gas_yearly:
+    source: sensor.gas_meter_kwh
+    cycle: yearly
