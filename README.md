@@ -8,16 +8,14 @@ Mit der Möglichkeit in Homeassistant Energieverbrauch darzustellen wollte ich e
 ### **Wie immer, das Internet hilft**
 ![](pics/9Fw3mRIaMofOcy.jpg)
 
-**Historie*
+**Historie**
 Vor ca. 10 Jahren hatte ich schon einmal eine Lösung von ELV versucht mit einem optischen Augen. Damals scheiterte es aber an sinnvoller Darstellung der CSV Daten, was recht mühsam war. Eine Funkstation mit Datensammler, den man alle Woche auslesen musste, machte keine Freude. Wobei der optische Zahlenwechsel sicher schon gut funktionierte.
 
 **Internetsuche letztlich mit Erfolg**
-
 Zugegebener Massen habe ich dazu vor ca. 2-3 Jahren im Internet gesucht und nichts gescheites gefunden. Vielleicht war die Suche nicht ernsthaft genug. Dann fand ich den Link im Reddit [Tutorial: My gas monitoring solution with Home Assistant and Zigbee](https://www.reddit.com/r/homeassistant/comments/eno3jn/tutorial_my_gas_monitoring_solution_with_home/) von "u/Andyrew". Perfekt, einige Homeassistant Scripte und Links zu STL Files sind darin enthalten.
 
 ### Die Idee
-
-![](/ccgtkvzbaqqt6w.jpg)
+![](pics/ccgtkvzbaqqt6w.jpg)
 
 **Ein guter Gedanke**
 
@@ -27,7 +25,7 @@ _Moment, du hast doch noch einige Tür/Fensterkontakte in der Schublade, die hab
 
 ### Beta Test
 
-![](/ivuacz42vukvhl.jpg)
+![](pics/ivuacz42vukvhl.jpg)
 
 Schnell war ein Türkontakt demontiert und mit doppelseitigem Klebeband in die Mulde des Gaszähler platziert.
 
@@ -35,7 +33,7 @@ Zu meiner Überraschung funktionierte es so schon einwandfrei, ich konnte die Ti
 
 ### Code anpassen
 
-![](/uxvs9lapsbgqqa.jpg)
+![](pics/uxvs9lapsbgqqa.jpg)
 
 **Dank an u/Andyrew**
 
@@ -53,11 +51,11 @@ Der Vollständigkeit halber hier der bei mir laufende Code, abgelegt in externen
 
 Screenshot zum Dashboard.
 
-![](/ki93mq-1-5jenp.png)
+![](pics/ki93mq-1-5jenp.png)
 
 In die angezeigten Input Felder trägt man lediglich den Gaspreis in Cent und den durchschnittlichen Tagespreis einer Grundgebühr ein.
 
-![](/vk5r3qh_vmhssx.png)
+![](pics/vk5r3qh_vmhssx.png)
 
 Mit den Homeassistant Energie Dashboard kann man z.B. den stündlichen Gasverbrauch aus dem Utility Meter gas_hourly darstellen.
 
@@ -72,11 +70,9 @@ Zusätzlich müssen die m³ mit einem sich ändernden Brennwert multipliziert we
 Auch ist es ggf. fragwürdig einen monatlichen Grundbetrag umzubrechen auf den Tag, die Stunde oder sogar die Viertelstunde, Naja ...
 
 **Formel Beispiel**
-
 Siehe auch Links in Seite "Code anpassen"
 
 **_Quellcode m³ addieren_**
-
 ```yaml
 service: input_number.set_value
 data_template:
@@ -85,17 +81,19 @@ value: '{{ (states.input_number.gas_meter_m3.state | float ) + 0.010 }}'
 ```
 
 **_Quellcode Brennwert berechnen_**
-
-    gas_meter_kwh:
-    device_class: gas
-    unit_of_measurement: "kWh"
-    value_template: "{{ states.input_number.gas_meter_m3.state | float * 9.5 }}"
+```yaml
+gas_meter_kwh:
+device_class: gas
+unit_of_measurement: "kWh"
+value_template: "{{ states.input_number.gas_meter_m3.state | float * 9.5 }}"
+```
 
 **_Quellcode zeitliche Berechnung_**
-
-    gas_price_hour:
-    unit_of_measurement: "€"
-    value_template: "{{ (((states.sensor.gas_hourly.state | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /24)) ) | round(2) }}"
+```yaml
+gas_price_hour:
+unit_of_measurement: "€"
+value_template: "{{ (((states.sensor.gas_hourly.state | float * (states.input_number.energy_gas_unit.state | float /100) ) + (states.input_number.energy_gas_standing.state | float /24)) ) | round(2) }}"
+```
 
 **Werte Bedeutung**
 
@@ -107,7 +105,7 @@ value: '{{ (states.input_number.gas_meter_m3.state | float ) + 0.010 }}'
 
 ### 3D Druck für Türkontakt
 
-![](/fha9z08sj50ycq.png "STL 3D")
+![](pics/fha9z08sj50ycq.png "STL 3D")
 
 **STL File anpassen**
 
@@ -121,7 +119,7 @@ Der Link zur STL Datei mit Bezug auf die Urform ist hier [BK-G4 Gas Sensor Count
 
 ### Nice and easy
 
-![](/ffcrdi4puinhb6.jpg "Preiswert")
+![](pics/ffcrdi4puinhb6.jpg "Preiswert")
 
 **Preiswert**
 
