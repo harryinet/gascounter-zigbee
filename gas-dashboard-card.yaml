@@ -1,0 +1,30 @@
+entities:
+  - entity: binary_sensor.pulse_gas_contact
+    name: Reed Kontakt
+  - entity: input_number.gas_meter_m3
+    name: m3 Verbrauch
+  - entity: sensor.gas_meter_kwh
+    name: kWh Summe
+  - entity: input_number.energy_gas_unit
+    name: Cent je kWh
+  - entity: input_number.energy_gas_standing
+    name: Pauschale je Tag
+  - entity: sensor.gas_15min
+  - entity: sensor.gas_hourly
+  - entity: sensor.gas_daily
+  - entity: sensor.gas_weekly
+  - entity: sensor.gas_monthly
+  - entity: sensor.gas_yearly
+  - entity: sensor.gas_price_15min_display
+  - entity: sensor.gas_price_15min_last_display
+  - entity: sensor.gas_price_hour_display
+  - entity: sensor.gas_price_hour_last_display
+  - entity: sensor.gas_price_day_display
+  - entity: sensor.gas_price_day_last_display
+  - entity: sensor.gas_price_week_display
+  - entity: sensor.gas_price_week_last_display
+  - entity: sensor.gas_price_month_display
+  - entity: sensor.gas_price_month_last_display
+title: Gas Verbrauch
+type: entities
+state_color: true
