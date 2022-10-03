@@ -45,10 +45,10 @@ Every 1st of a month, I record the gas meter readings by hand. On 1/1/2022 I had
 On October 1st 2022 the B-G4 value was 54.430 m³, the dashboard showed 1.354 m³.
 
 ###### Let´s calculate
-| Device | on 1.1.22 | on 1.10.1022 | 
-| --- | --- | --- |
-| BK-G4 | 54.430 | 55.764 |
-| Homeassistant | 0 | 1.354 |
+| Device | on 1.1.22 | on 1.10.1022 | Diff |
+| --- | --- | --- | --- |
+| BK-G4 | 54.430 | 55.764 | 1.334 |
+| Homeassistant | 0 | 1.354 | 1.354 |
 
 If I subtract the value 1.354 from the real BK-G4 value i get 54.410 m³. So the Homeassistant value is 20 m³ lower than the real value.
 * 20 m³ are 20.000 tiks delta. We had 1.354.000 tiks.
