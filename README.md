@@ -36,7 +36,7 @@ Quickly a door contact was dismantled and placed with double-sided tape in the t
 
 To my surprise, it already worked perfectly, I could compare the ticks in the Homeassistant with the meter reading over an hour, fits.
 
-#### Experience after months
+### Experience after months
 ##### Battery life
 I started with it in November 2021. Until today, October 2022, it works without battery change.
 
