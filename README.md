@@ -36,6 +36,25 @@ Quickly a door contact was dismantled and placed with double-sided tape in the t
 
 To my surprise, it already worked perfectly, I could compare the ticks in the Homeassistant with the meter reading over an hour, fits.
 
+#### Experience after months
+##### Battery life
+I started with it in November 2021. Until today, October 2022, it works without battery change.
+
+##### Measurement precision
+Every 1st of a month, I record the gas meter readings by hand. On 1/1/2022 I had the value of 54.430 m³, in the dashboard of the Homeassistant I entered the value 0 (zero).
+On October 1st 2022 the B-G4 value was 54.430 m³, the dashboard showed 1.354 m³.
+
+###### Let´s calculate
+| Device | on 1.1.22 | on 1.10.1022 | 
+| --- | --- | --- |
+| BK-G4 | 54.430 | 55.764 |
+| Homeassistant | 0 | 1.354 |
+
+If I subtract the value 1.354 from the real BK-G4 value i get 54.410 m³. So the Homeassistant value is 20 m³ lower than the real value.
+* 20 m³ are 20.000 tiks delta. We had 1.354.000 tiks.
+* 1 m³ is about 10kWh. If i calculate 15 cent (take your values) per kWh ist is 20 x 10 x ,15 = 30 EUR
+The difference can be determined, but in my opinion it is negligible.
+
 ### Some Codeing
 
 ![](pics/uxvs9LApSBGqQa.jpg)
