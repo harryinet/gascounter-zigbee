@@ -52,7 +52,7 @@ On October 1st 2022 the B-G4 value was 54.430 m³, the dashboard showed 1.354 m�
 
 If I subtract the value 1.354 from the real BK-G4 value i get 54.410 m³. So the Homeassistant value is 20 m³ lower than the real value.
 * 20 m³ are 20.000 tiks delta. We had 1.354.000 tiks.
-* 1 m³ is about 10kWh. If i calculate 15 cent (take your values) per kWh ist is 20 x 10 x ,15 = 30 EUR
+* 1 m³ is about 10kWh. If i calculate 15 cent (take your values) per kWh ist is 20 x 10 x ,15 = 30 EUR. 
 The difference can be determined, but in my opinion it is negligible.
 
 ### Some Codeing
